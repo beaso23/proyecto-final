@@ -1,0 +1,110 @@
+*{ margin:0;
+    padding:0;
+    box-sizing: border-box;}
+body{ background-color: rgb(32, 151, 112);justify-content: center;}
+/*header*/
+ header { background-color: aquamarine;
+padding: 20px;
+margin:10px;
+display: flex;
+justify-content: space-between;
+border-radius: 10px;}
+ header div img {width:650px;
+     height: 300px;
+     margin:10px ;
+    border-radius: 10px;}
+ header div  h1{ font-size: 80px;
+     color: darkorange; }
+ header  nav { background-color: darkorange; 
+     margin:5px ;
+     padding: 10px;
+      box-sizing: border-box;
+       font-size: 20px;
+        width: 400px;
+    border-radius: 10px;}
+ header nav ul { list-style: none; }
+ header div nav ul li button {  background-color: rgb(156, 78, 156) ;
+     font-size: 30px;
+     padding: 20px;
+     margin:20px;
+      width:300px; }
+ header div nav ul li button a{font-size:  30px;
+     color: rgb(44, 5, 44); 
+     list-style: none;
+     font-family: 'Courier New', Courier, monospace;
+text-decoration: none; }
+ 
+/*main */ 
+
+.review { background-color: yellow;
+                 margin:20px;
+                 padding:40px; border-radius: 10px;}
+h2{ font-size: 60px;
+    color:purple;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+p { font-size: 30px; }
+
+
+.container-card{ background-color: coral;
+                     padding: 30px;
+                     margin: 15px;
+                     box-sizing: border-box;
+                    display:flex;
+                flex-wrap: wrap;
+            width: 1850px; 
+        border-radius: 10px;}
+.grid-item { background-color:aquamarine;
+    text-align: center; 
+    padding: 20px;
+     border-radius: 10px;
+      width:400px;
+      margin: 20px;
+      font-size: 2px;}
+.grid-item img { width: 200px;
+    border-radius: 50%;}
+/*.grid-item-1{ display:flex; flex-wrap: wrap;}
+ no modifica las celdas*/
+.seasons { background-color: yellow; padding: 30px; margin: 10px; border-radius: 10px;}
+.seasons button { padding: 10px; background-color: peru;}
+.container-card-1 {background-color: purple; 
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 1800px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px; }
+
+.grid-item-1 img { background-color: yellow;
+    margin:40px ;
+    padding: 35px; 
+    width: 500px;
+    height: 400px; 
+    justify-content: space-between; 
+    border-radius: 10px;}
+.temporadas  button a { background-color: coral;
+        font-size: 30px; }
+/*footer*/
+
+footer { background-color: darksalmon;
+margin: 20px;
+padding: 30px;
+font-size: 15px;
+display:flex;
+flex-wrap: wrap;
+justify-content:space-between ;
+align-items: center;
+border-radius: 10px;}
+nav{ list-style: none;}
+footer div h3 { font-size: 50px; 
+    color: purple;}
+footer div ul li { list-style: none;}
+footer div ul li button { background-color: mediumpurple;
+    font-size: 35px; padding: 10px; margin: 10px; text-decoration: none;}
+footer div p { color:purple;}
+footer div p button { background-color: aquamarine; padding: 5px; font-size: 15px;}
+ @media (max-width:880px)
+ { header }
+ @media( max-width:480px)
+{header  {background-color: yellow;  display:block ; width: 200px }}
