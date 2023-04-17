@@ -1,6 +1,7 @@
 *{ margin:0;
     padding:0;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+    text-decoration: none;}
 body{ background-color: rgb(32, 151, 112);justify-content: center;}
 /*header*/
  header { background-color: aquamarine;
@@ -35,7 +36,6 @@ border-radius: 10px;}
 text-decoration: none; }
  
 /*main */ 
-
 .review { background-color: yellow;
                  margin:20px;
                  padding:40px; border-radius: 10px;}
@@ -44,8 +44,6 @@ h2{ font-size: 60px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 p { font-size: 30px; }
-
-
 .container-card{ background-color: coral;
                      padding: 30px;
                      margin: 15px;
@@ -63,19 +61,18 @@ p { font-size: 30px; }
       font-size: 2px;}
 .grid-item img { width: 200px;
     border-radius: 50%;}
-/*.grid-item-1{ display:flex; flex-wrap: wrap;}
- no modifica las celdas*/
+.grid-item h3 { font-size: 30px;}
+.grid-item p { font-size: 20px;}
 .seasons { background-color: yellow; padding: 30px; margin: 10px; border-radius: 10px;}
 .seasons button { padding: 10px; background-color: peru;}
 .container-card-1 {background-color: purple; 
-    margin: 10px;
+    margin: 20px;
     padding: 20px;
     box-sizing: border-box;
-    width: 1800px;
+    width: 1850px;
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px; }
-
 .grid-item-1 img { background-color: yellow;
     margin:40px ;
     padding: 35px; 
@@ -83,13 +80,12 @@ p { font-size: 30px; }
     height: 400px; 
     justify-content: space-between; 
     border-radius: 10px;}
-.temporadas  button a { background-color: coral;
+.seasons  button a { background-color: coral;
         font-size: 30px; }
 /*footer*/
-
 footer { background-color: darksalmon;
-margin: 20px;
-padding: 30px;
+margin: 30px;
+padding: 50px;
 font-size: 15px;
 display:flex;
 flex-wrap: wrap;
@@ -104,7 +100,10 @@ footer div ul li button { background-color: mediumpurple;
     font-size: 35px; padding: 10px; margin: 10px; text-decoration: none;}
 footer div p { color:purple;}
 footer div p button { background-color: aquamarine; padding: 5px; font-size: 15px;}
- @media (max-width:880px)
- { header }
- @media( max-width:480px)
-{header  {background-color: yellow;  display:block ; width: 200px }}
+ @media (max-width:768px)
+
+ @media( max-width:480px )
+ {header li{ font-size:20px; padding:5px;}}
+ *{ box-sizing: border-box}
+ li { display:list-item ;}
+ 
