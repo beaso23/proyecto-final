@@ -28,14 +28,16 @@ border-radius: 10px;}
      font-size: 30px;
      padding: 20px;
      margin:20px;
-      width:300px; }
+     width:300px;
+    border-radius: 10px;}
  header div nav ul li button a{font-size:  30px;
      color: rgb(44, 5, 44); 
      list-style: none;
      font-family: 'Courier New', Courier, monospace;
 text-decoration: none; }
- 
+header button:hover { background-color: chartreuse;} 
 /*main */ 
+/* primer sección "sintesis"*/
 .review { background-color: yellow;
                  margin:20px;
                  padding:40px; border-radius: 10px;}
@@ -44,28 +46,32 @@ h2{ font-size: 60px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 p { font-size: 30px; }
-.container-card{ background-color: coral;
-                     padding: 30px;
-                     margin: 15px;
-                     box-sizing: border-box;
-                    display:flex;
+/*segunda sección "personajes"*/
+.characters h3 { font-size: 60px;
+    text-align: center;
+    color:purple;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+#characters-grid{ padding: 30px;
+                   margin: 15px;
+                  display:flex;
                 flex-wrap: wrap;
-            width: 1850px; 
-        border-radius: 10px;}
-.grid-item { background-color:aquamarine;
+                gap:10px;}
+.character-card { background-color:yellow;
     text-align: center; 
     padding: 20px;
      border-radius: 10px;
       width:400px;
       margin: 20px;
       font-size: 2px;}
-.grid-item img { width: 200px;
+.character-card img { width: 200px;
     border-radius: 50%;}
-.grid-item h3 { font-size: 30px;}
-.grid-item p { font-size: 20px;}
+.character-card h3 { font-size: 30px;color:blueviolet;}
+.character-card p { font-size: 20px;}
+.character-card:hover { background-color: chartreuse;}
+/* tercer sección "temporadas"*/
 .seasons { background-color: yellow; padding: 30px; margin: 10px; border-radius: 10px;}
-.seasons button { padding: 10px; background-color: peru;}
-.container-card-1 {background-color: purple; 
+.seasons div button { padding: 10px; background-color: peru;border-radius: 10px;}
+.container-card {background-color: purple; 
     margin: 20px;
     padding: 20px;
     box-sizing: border-box;
@@ -82,8 +88,9 @@ p { font-size: 30px; }
     border-radius: 10px;}
 .seasons  button a { background-color: coral;
         font-size: 30px; }
+ .seasons button:hover { background-color:chartreuse ;}
 /*footer*/
-footer { background-color: darksalmon;
+footer { background-color: coral;
 margin: 30px;
 padding: 50px;
 font-size: 15px;
@@ -96,10 +103,11 @@ nav{ list-style: none;}
 footer div h3 { font-size: 50px; 
     color: purple;}
 footer div ul li { list-style: none;}
-footer div ul li button { background-color: mediumpurple;
+footer div ul li button { background-color: mediumpurple;border-radius: 10%;
     font-size: 35px; padding: 10px; margin: 10px; text-decoration: none;}
 footer div p { color:purple;}
-footer div p button { background-color: aquamarine; padding: 5px; font-size: 15px;}
+footer div p button { background-color: aquamarine; padding: 5px; font-size: 15px; border-radius: 10%;}
+/*responsive design*/
  @media (max-width:880px){ 
 header { flex-direction: column;}
  main{ flex-direction: column;}
